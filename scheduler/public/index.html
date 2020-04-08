@@ -40,4 +40,28 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAKh08PWZt59L_VG7D-DWbL99_5p-reC9c",
+    authDomain: "scheduler-firebase-860f0.firebaseapp.com",
+    databaseURL: "https://scheduler-firebase-860f0.firebaseio.com",
+    projectId: "scheduler-firebase-860f0",
+    storageBucket: "scheduler-firebase-860f0.appspot.com",
+    messagingSenderId: "126991552564",
+    appId: "1:126991552564:web:f23b3f8cb0a5b2a260ba61",
+    measurementId: "G-LC22BL874W"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </html>
